@@ -3,8 +3,7 @@ import './App.css'
 import { observer } from 'mobx-react'
 import Market from './components/Market'
 
-
-function App(props) {
+function App() {
   return (
     <div className="App">
       <Market />

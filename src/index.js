@@ -7,8 +7,6 @@ import { Provider } from 'mobx-react'
 import { InventoryStore as inventoryStore } from './stores/InventoryStore'
 
 const InventoryStore = new inventoryStore()
-InventoryStore.addItem("apple", 10, 10)
-InventoryStore.addItem("orange", 7, 5)
 const stores = {InventoryStore}
 
 ReactDOM.render(

@@ -1,4 +1,4 @@
-import { makeObservable, observable, action, computed } from 'mobx'
+import { makeObservable, observable} from 'mobx'
 
 export class Item {
     constructor(name, price = 0, quantity = 1) {
